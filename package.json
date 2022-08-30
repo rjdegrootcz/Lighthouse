@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@lhci/cli": "^0.9.0"
+  },
+  "scripts": {
+    "lh:collect": "lhci collect --config ./lighthouse/config.json",
+    "lh:assert": "lhci assert --config ./lighthouse/config.json"
+  }
+}
